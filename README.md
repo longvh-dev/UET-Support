@@ -63,4 +63,21 @@ UET Student Support Group Management Systems
 
 ## Full Demo
 
-## Run server
+## Hướng dẫn cài đặt và chạy ứng dụng
+
+### Yêu cầu 
+- `NodeJS` >= 12.0
+
+1. Truy cập server tại đường dẫn https://int3306.freeddns.org/
+   - Tài khoản: fall2324w20g5
+   - mật khẩu: fall2324w20g5
+2. Mở cửa sổ Terminal 1 chạy lệnh:
+```
+cd ~/UET-Support
+npm start
+```
+3. Mở cửa sổ Terminal 2 chạy lệnh:
+```
+/etc/jupyter/bin/expose 3000
+```
+4. Truy cập vào http://fall2324w20g5.int3306.freeddns.org/ để sử dụng ứng dụng
