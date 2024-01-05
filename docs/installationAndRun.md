@@ -57,4 +57,8 @@ export NVM_DIR="$([ -z "${XDG_CONFIG_HOME-}" ] && printf %s "${HOME}/.nvm" || pr
 /etc/jupyter/bin/expose 3000
 ```
 
-## `cd src` và chạy `npm start`
+## Chạy ứng dụng
+```
+cd src
+npm start
+```
