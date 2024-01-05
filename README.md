@@ -68,9 +68,8 @@ UET Student Support Group Management Systems
 ### Yêu cầu 
 - `NodeJS` >= 12.0
 
-1. Truy cập server tại đường dẫn https://int3306.freeddns.org/
-   - Tài khoản: fall2324w20g5
-   - mật khẩu: fall2324w20g5
+1. Truy cập server tại đường dẫn https://int3306.freeddns.org/ và đăng nhập tài khoản
+
 2. Mở cửa sổ Terminal 1 chạy lệnh:
 ```
 cd ~/UET-Support/src
