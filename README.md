@@ -73,11 +73,13 @@ UET Student Support Group Management Systems
    - mật khẩu: fall2324w20g5
 2. Mở cửa sổ Terminal 1 chạy lệnh:
 ```
-cd ~/UET-Support
-npm start
+cd ~/UET-Support/src
+export NVM_DIR="$([ -z "${XDG_CONFIG_HOME-}" ] && printf %s "${HOME}/.nvm" || printf %s "${XDG_CONFIG_HOME}/nvm")"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"
 ```
 3. Mở cửa sổ Terminal 2 chạy lệnh:
 ```
 /etc/jupyter/bin/expose 3000
+cd ~UET-Support && npm start
 ```
 4. Truy cập vào http://fall2324w20g5.int3306.freeddns.org/ để sử dụng ứng dụng
