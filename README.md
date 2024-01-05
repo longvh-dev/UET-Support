@@ -4,7 +4,8 @@ UET Student Support Group Management Systems
 
 <p align="center">
   <br>
-  <img width=230px height=116px  src="" alt="Project logo">
+  <img width=230px height=116px  src="frontend/sgfrontend/public
+/logo-trans.png" alt="Project logo">
 
 </p>
 
